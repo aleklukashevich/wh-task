@@ -1,0 +1,6 @@
+{
+  "searchButton": "[data-test-element='search.open']",
+  "searchTextField": "[data-test-element='search.content'] input",
+  "searchResult": ".sb-search-result",
+  "searchResultsRows": ".sb-search-result ul li[data-test]"
+}

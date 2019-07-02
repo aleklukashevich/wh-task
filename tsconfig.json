@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "commonjs",
+        "baseUrl": "https://vegas.williamhill.com/en-gb/",
+        "paths": {
+            "*": [ "./*" ],
+            "src/*": ["./src/*"]
+        },
+        "types": ["node", "@wdio/sync", "@wdio/mocha-framework"],
+        "experimentalDecorators": true, 
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "src/concepts"
+    ]
+}

@@ -1,0 +1,7 @@
+.git
+node_modules
+errorShots
+lib
+package-lock.json
+./allure-report
+./allure-results
